@@ -1,3 +1,4 @@
+//Parent class of Book and Magazine
 public abstract class Media {
 
     // TOPIC: Encapsulation
@@ -19,4 +20,5 @@ public abstract class Media {
     // It forces every child class (like Book) to create its own
     // getDetails() method, or the code won't compile.
     public abstract String getDetails();
+
 }
